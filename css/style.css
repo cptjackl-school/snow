@@ -2,8 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Peralta&display=swap');
 
 @font-face {
-    font-family: 'Facinate Inline';
+    font-family: 'Fascinate Inline';
     src: url(../fonts/fascinateinline-regular-webfont.woff2);
+}
+
+@font-face {
+    font-family: 'Peralta';
+    src: local('Peralta'),url(https://fonts.gstatic.com/s/peralta/v19/hYkJPu0-RP_9d3kRKxcrrw.woff2);
 }
 
 .blue{
@@ -36,12 +41,13 @@ body{
 }
 
 h1{
-    font-family: 'Facinate Inline', sans-serif;
+    font-family: 'Fascinate Inline';
     font-size: 8rem;
     text-align:center;
     line-height: 2;
 }
 
 p{
-    font-family:'Peralta', serif;
+    font-family:'Peralta';
+    font-size: 1.7rem;
 }
